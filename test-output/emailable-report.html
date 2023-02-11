@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Luma Smoke Suite</th></tr>
+<tr><td><a href="#t0">Luma Smoke Tests</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">127,520</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Luma Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Luma Smoke Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.luma.testcases.ProductDetailsTestCases</td><td><a href="#m0">verifyCheckProductName</a></td><td rowspan="1">1676102592437</td><td rowspan="1">1105</td></tr><tr class="failedodd"><td rowspan="1">com.qa.luma.testcases.SignInTestCases</td><td><a href="#m1">verifyLoggedInUserName</a></td><td rowspan="1">1676102548985</td><td rowspan="1">20415</td></tr><tr><th colspan="4">Luma Smoke Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.luma.testcases.CatalogSearchTestCases</td><td><a href="#m2">verifyEnterSearchKeyword</a></td><td rowspan="1">1676102609135</td><td rowspan="1">1974</td></tr><tr class="passedeven"><td><a href="#m3">verifyGetProductPrices</a></td><td rowspan="1">1676102611120</td><td rowspan="1">236</td></tr><tr class="passedodd"><td rowspan="4">com.qa.luma.testcases.ProductDetailsTestCases</td><td><a href="#m4">verifyClickOnAddToCart</a></td><td rowspan="1">1676102590093</td><td rowspan="1">2231</td></tr><tr class="passedodd"><td><a href="#m5">verifyClickOnShowCart</a></td><td rowspan="1">1676102592330</td><td rowspan="1">93</td></tr><tr class="passedodd"><td><a href="#m6">verifyClickProceedToCheckOut</a></td><td rowspan="1">1676102593735</td><td rowspan="1">2185</td></tr><tr class="passedodd"><td><a href="#m7">verifyProductItemPrice</a></td><td rowspan="1">1676102590042</td><td rowspan="1">44</td></tr><tr class="passedeven"><td rowspan="3">com.qa.luma.testcases.SignInTestCases</td><td><a href="#m8">verifyLogin</a></td><td rowspan="1">1676102542799</td><td rowspan="1">6179</td></tr><tr class="passedeven"><td><a href="#m9">verifySignInLink</a></td><td rowspan="1">1676102542667</td><td rowspan="1">46</td></tr><tr class="passedeven"><td><a href="#m10">verifySignOut</a></td><td rowspan="1">1676102569841</td><td rowspan="1">2120</td></tr><tr class="passedodd"><td rowspan="2">com.qa.luma.testcases.SignUpTestCases</td><td><a href="#m11">verifyCreateAnAccount</a></td><td rowspan="1">1676102521078</td><td rowspan="1">8080</td></tr><tr class="passedodd"><td><a href="#m12">verifySignUpLink</a></td><td rowspan="1">1676102501372</td><td rowspan="1">2049</td></tr></tbody>
+</table>
+<h2>Luma Smoke Tests</h2><h3 id="m0">com.qa.luma.testcases.ProductDetailsTestCases#verifyCheckProductName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Dash Digital ] but found [Dash Digital Watch]
+	at com.qa.luma.testcases.ProductDetailsTestCases.verifyCheckProductName(ProductDetailsTestCases.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.luma.testcases.SignInTestCases#verifyLoggedInUserName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel header&apos;]//span[@class=&apos;logged-in&apos;][normalize-space()=&apos;Welcome, Alen Paul!&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cd47db858e32a5e75b750f270fe2761, findElement {using=xpath, value=//div[@class=&apos;panel header&apos;]//span[@class=&apos;logged-in&apos;][normalize-space()=&apos;Welcome, Alen Paul!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDDA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52044/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd47db858e32a5e75b750f270fe2761
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)
+	at com.qa.luma.pages.SignIn.getUserName(SignIn.java:88)
+	at com.qa.luma.testcases.SignInTestCases.verifyLoggedInUserName(SignInTestCases.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.luma.testcases.CatalogSearchTestCases#verifyEnterSearchKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Watch</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.luma.testcases.CatalogSearchTestCases#verifyGetProductPrices</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.luma.testcases.ProductDetailsTestCases#verifyClickOnAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.luma.testcases.ProductDetailsTestCases#verifyClickOnShowCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.luma.testcases.ProductDetailsTestCases#verifyClickProceedToCheckOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.luma.testcases.ProductDetailsTestCases#verifyProductItemPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.luma.testcases.SignInTestCases#verifyLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>alenpaul335@example.com</td><td>Test123456#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.luma.testcases.SignInTestCases#verifySignInLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.luma.testcases.SignInTestCases#verifySignOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.luma.testcases.SignUpTestCases#verifyCreateAnAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Alen </td><td>Paul</td><td>alenpaul416@example.com</td><td>Test123456#</td><td>Test123456#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.luma.testcases.SignUpTestCases#verifySignUpLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

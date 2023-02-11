@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Luma Smoke Suite">
+
+   <listeners>
+		<listener class-name="com.qa.luma.listeners.TestAllureListener" />
+	</listeners>
+  <test thread-count="5" name="Luma Smoke Tests">
+    <classes>
+      <class name="com.qa.luma.testcases.SignUpTestCases"/>
+      <class name="com.qa.luma.testcases.SignInTestCases"/>
+      <class name="com.qa.luma.testcases.ProductDetailsTestCases"/>
+      <class name="com.qa.luma.testcases.CatalogSearchTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="16" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T00:01:24 PST" name="Luma Smoke Suite" finished-at="2023-02-11T00:03:32 PST" duration-ms="127520">
+    <groups>
+    </groups>
+    <test started-at="2023-02-11T00:01:24 PST" name="Luma Smoke Tests" finished-at="2023-02-11T00:03:32 PST" duration-ms="127520">
+      <class name="com.qa.luma.testcases.SignUpTestCases">
+        <test-method is-config="true" signature="deleteExistingReports()[pri:0, instance:com.qa.luma.testcases.SignUpTestCases@3730ab42]" started-at="2023-02-11T00:01:24 PST" name="deleteExistingReports" finished-at="2023-02-11T00:01:24 PST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistingReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.luma.testcases.SignUpTestCases@3730ab42]" started-at="2023-02-11T00:01:24 PST" name="setUp" finished-at="2023-02-11T00:01:41 PST" duration-ms="16630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpLink()[pri:1, instance:com.qa.luma.testcases.SignUpTestCases@3730ab42]" started-at="2023-02-11T00:01:41 PST" name="verifySignUpLink" finished-at="2023-02-11T00:01:43 PST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLink -->
+        <test-method signature="verifyCreateAnAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.luma.testcases.SignUpTestCases@3730ab42]" started-at="2023-02-11T00:02:01 PST" name="verifyCreateAnAccount" data-provider="getSignUpDetails" finished-at="2023-02-11T00:02:09 PST" duration-ms="8080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alen ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alenpaul416@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test123456#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test123456#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAnAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.luma.testcases.SignUpTestCases@3730ab42]" started-at="2023-02-11T00:02:09 PST" name="tearDown" finished-at="2023-02-11T00:02:12 PST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.luma.testcases.SignUpTestCases -->
+      <class name="com.qa.luma.testcases.ProductDetailsTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:02:52 PST" name="setUp" finished-at="2023-02-11T00:03:10 PST" duration-ms="17397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductItemPrice()[pri:1, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:10 PST" name="verifyProductItemPrice" finished-at="2023-02-11T00:03:10 PST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductItemPrice -->
+        <test-method signature="verifyClickOnAddToCart()[pri:2, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:10 PST" name="verifyClickOnAddToCart" finished-at="2023-02-11T00:03:12 PST" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnAddToCart -->
+        <test-method signature="verifyClickOnShowCart()[pri:3, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:12 PST" name="verifyClickOnShowCart" finished-at="2023-02-11T00:03:12 PST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnShowCart -->
+        <test-method signature="verifyCheckProductName()[pri:4, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:12 PST" name="verifyCheckProductName" finished-at="2023-02-11T00:03:13 PST" duration-ms="1105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dash Digital ] but found [Dash Digital Watch]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dash Digital ] but found [Dash Digital Watch]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.luma.testcases.ProductDetailsTestCases.verifyCheckProductName(ProductDetailsTestCases.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckProductName -->
+        <test-method signature="verifyClickProceedToCheckOut()[pri:5, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:13 PST" name="verifyClickProceedToCheckOut" finished-at="2023-02-11T00:03:15 PST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickProceedToCheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.luma.testcases.ProductDetailsTestCases@64a9d48c]" started-at="2023-02-11T00:03:15 PST" name="tearDown" finished-at="2023-02-11T00:03:16 PST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.luma.testcases.ProductDetailsTestCases -->
+      <class name="com.qa.luma.testcases.SignInTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:12 PST" name="setUp" finished-at="2023-02-11T00:02:22 PST" duration-ms="9975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignInLink()[pri:1, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:22 PST" name="verifySignInLink" finished-at="2023-02-11T00:02:22 PST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInLink -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:2, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:22 PST" name="verifyLogin" data-provider="getLoginDetails" finished-at="2023-02-11T00:02:28 PST" duration-ms="6179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alenpaul335@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123456#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLoggedInUserName()[pri:3, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:28 PST" name="verifyLoggedInUserName" finished-at="2023-02-11T00:02:49 PST" duration-ms="20415" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='panel header']//span[@class='logged-in'][normalize-space()='Welcome, Alen Paul!']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cd47db858e32a5e75b750f270fe2761, findElement {using=xpath, value=//div[@class='panel header']//span[@class='logged-in'][normalize-space()='Welcome, Alen Paul!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDDA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52044/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd47db858e32a5e75b750f270fe2761]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='panel header']//span[@class='logged-in'][normalize-space()='Welcome, Alen Paul!']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cd47db858e32a5e75b750f270fe2761, findElement {using=xpath, value=//div[@class='panel header']//span[@class='logged-in'][normalize-space()='Welcome, Alen Paul!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDDA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52044/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd47db858e32a5e75b750f270fe2761
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)
+at com.qa.luma.pages.SignIn.getUserName(SignIn.java:88)
+at com.qa.luma.testcases.SignInTestCases.verifyLoggedInUserName(SignInTestCases.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserName -->
+        <test-method signature="verifySignOut()[pri:4, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:49 PST" name="verifySignOut" finished-at="2023-02-11T00:02:51 PST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.luma.testcases.SignInTestCases@507b79f7]" started-at="2023-02-11T00:02:51 PST" name="tearDown" finished-at="2023-02-11T00:02:52 PST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.luma.testcases.SignInTestCases -->
+      <class name="com.qa.luma.testcases.CatalogSearchTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.luma.testcases.CatalogSearchTestCases@365a6a43]" started-at="2023-02-11T00:03:16 PST" name="setUp" finished-at="2023-02-11T00:03:29 PST" duration-ms="12492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEnterSearchKeyword(java.lang.String)[pri:1, instance:com.qa.luma.testcases.CatalogSearchTestCases@365a6a43]" started-at="2023-02-11T00:03:29 PST" name="verifyEnterSearchKeyword" data-provider="getSearchKeyword" finished-at="2023-02-11T00:03:31 PST" duration-ms="1974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnterSearchKeyword -->
+        <test-method signature="verifyGetProductPrices()[pri:2, instance:com.qa.luma.testcases.CatalogSearchTestCases@365a6a43]" started-at="2023-02-11T00:03:31 PST" name="verifyGetProductPrices" finished-at="2023-02-11T00:03:31 PST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProductPrices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.luma.testcases.CatalogSearchTestCases@365a6a43]" started-at="2023-02-11T00:03:31 PST" name="tearDown" finished-at="2023-02-11T00:03:32 PST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.luma.testcases.CatalogSearchTestCases -->
+    </test> <!-- Luma Smoke Tests -->
+  </suite> <!-- Luma Smoke Suite -->
+</testng-results>

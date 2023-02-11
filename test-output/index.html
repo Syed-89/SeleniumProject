@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Luma_Smoke_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Luma Smoke Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>C:\Users\Syed Danish\eclipse-workspace\SeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Luma_Smoke_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Luma_Smoke_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Luma_Smoke_Suite" class="hide-methods failed suite-Luma_Smoke_Suite"> (hide)</a> <!-- hide-methods failed suite-Luma_Smoke_Suite -->
+                      <a href="#" panel-name="suite-Luma_Smoke_Suite" class="show-methods failed suite-Luma_Smoke_Suite"> (show)</a> <!-- show-methods failed suite-Luma_Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Luma_Smoke_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.ProductDetailsTestCases" class="method navigator-link" hash-for-method="verifyCheckProductName">verifyCheckProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignInTestCases" class="method navigator-link" hash-for-method="verifyLoggedInUserName">verifyLoggedInUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Luma_Smoke_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Luma_Smoke_Suite" class="hide-methods passed suite-Luma_Smoke_Suite"> (hide)</a> <!-- hide-methods passed suite-Luma_Smoke_Suite -->
+                      <a href="#" panel-name="suite-Luma_Smoke_Suite" class="show-methods passed suite-Luma_Smoke_Suite"> (show)</a> <!-- show-methods passed suite-Luma_Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Luma_Smoke_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.ProductDetailsTestCases" class="method navigator-link" hash-for-method="verifyClickOnAddToCart">verifyClickOnAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.ProductDetailsTestCases" class="method navigator-link" hash-for-method="verifyClickOnShowCart">verifyClickOnShowCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.ProductDetailsTestCases" class="method navigator-link" hash-for-method="verifyClickProceedToCheckOut">verifyClickProceedToCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignUpTestCases" class="method navigator-link" hash-for-method="verifyCreateAnAccount(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#)">verifyCreateAnAccount(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.CatalogSearchTestCases" class="method navigator-link" hash-for-method="verifyEnterSearchKeyword(Watch)">verifyEnterSearchKeyword(Watch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.CatalogSearchTestCases" class="method navigator-link" hash-for-method="verifyGetProductPrices">verifyGetProductPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignInTestCases" class="method navigator-link" hash-for-method="verifyLogin(alenpaul335@example.com, Test123456#)">verifyLogin(alenpaul335@example.com, Test123456#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.ProductDetailsTestCases" class="method navigator-link" hash-for-method="verifyProductItemPrice">verifyProductItemPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignInTestCases" class="method navigator-link" hash-for-method="verifySignInLink">verifySignInLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignInTestCases" class="method navigator-link" hash-for-method="verifySignOut">verifySignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Luma_Smoke_Suite" title="com.qa.luma.testcases.SignUpTestCases" class="method navigator-link" hash-for-method="verifySignUpLink">verifySignUpLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Luma_Smoke_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Luma_Smoke_Suite" class="panel Luma_Smoke_Suite">
+          <div class="suite-Luma_Smoke_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.luma.testcases.SignInTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoggedInUserName">
+                  </a> <!-- verifyLoggedInUserName -->
+                  <span class="method-name">verifyLoggedInUserName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel header&apos;]//span[@class=&apos;logged-in&apos;][normalize-space()=&apos;Welcome, Alen Paul!&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cd47db858e32a5e75b750f270fe2761, findElement {using=xpath, value=//div[@class=&apos;panel header&apos;]//span[@class=&apos;logged-in&apos;][normalize-space()=&apos;Welcome, Alen Paul!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDDA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52044/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd47db858e32a5e75b750f270fe2761
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)
+	at com.qa.luma.pages.SignIn.getUserName(SignIn.java:88)
+	at com.qa.luma.testcases.SignInTestCases.verifyLoggedInUserName(SignInTestCases.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-failed -->
+          <div class="suite-Luma_Smoke_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.luma.testcases.ProductDetailsTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckProductName">
+                  </a> <!-- verifyCheckProductName -->
+                  <span class="method-name">verifyCheckProductName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Dash Digital ] but found [Dash Digital Watch]
+	at com.qa.luma.testcases.ProductDetailsTestCases.verifyCheckProductName(ProductDetailsTestCases.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-failed -->
+          <div class="suite-Luma_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.luma.testcases.SignInTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(alenpaul335@example.com, Test123456#)">
+                  </a> <!-- verifyLogin(alenpaul335@example.com, Test123456#) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(alenpaul335@example.com, Test123456#)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInLink">
+                  </a> <!-- verifySignInLink -->
+                  <span class="method-name">verifySignInLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignOut">
+                  </a> <!-- verifySignOut -->
+                  <span class="method-name">verifySignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-passed -->
+          <div class="suite-Luma_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.luma.testcases.ProductDetailsTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnAddToCart">
+                  </a> <!-- verifyClickOnAddToCart -->
+                  <span class="method-name">verifyClickOnAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnShowCart">
+                  </a> <!-- verifyClickOnShowCart -->
+                  <span class="method-name">verifyClickOnShowCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickProceedToCheckOut">
+                  </a> <!-- verifyClickProceedToCheckOut -->
+                  <span class="method-name">verifyClickProceedToCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductItemPrice">
+                  </a> <!-- verifyProductItemPrice -->
+                  <span class="method-name">verifyProductItemPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-passed -->
+          <div class="suite-Luma_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.luma.testcases.SignUpTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateAnAccount(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#)">
+                  </a> <!-- verifyCreateAnAccount(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#) -->
+                  <span class="method-name">verifyCreateAnAccount</span>
+                  <span class="parameters">(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpLink">
+                  </a> <!-- verifySignUpLink -->
+                  <span class="method-name">verifySignUpLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-passed -->
+          <div class="suite-Luma_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.luma.testcases.CatalogSearchTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterSearchKeyword(Watch)">
+                  </a> <!-- verifyEnterSearchKeyword(Watch) -->
+                  <span class="method-name">verifyEnterSearchKeyword</span>
+                  <span class="parameters">(Watch)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetProductPrices">
+                  </a> <!-- verifyGetProductPrices -->
+                  <span class="method-name">verifyGetProductPrices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Luma_Smoke_Suite-class-passed -->
+        </div> <!-- panel Luma_Smoke_Suite -->
+        <div panel-name="test-xml-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Syed Danish\eclipse-workspace\SeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Luma Smoke Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.luma.listeners.TestAllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Luma Smoke Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.luma.testcases.SignUpTestCases&quot;/&gt;
+      &lt;class name=&quot;com.qa.luma.testcases.SignInTestCases&quot;/&gt;
+      &lt;class name=&quot;com.qa.luma.testcases.ProductDetailsTestCases&quot;/&gt;
+      &lt;class name=&quot;com.qa.luma.testcases.CatalogSearchTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Luma Smoke Tests --&gt;
+&lt;/suite&gt; &lt;!-- Luma Smoke Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Luma Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Luma Smoke Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Luma Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Luma Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Luma_Smoke_Suite');
+function tableData_Luma_Smoke_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLoggedInUserName')
+data.setCell(0, 2, 'com.qa.luma.testcases.SignInTestCases')
+data.setCell(0, 3, 20415);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCreateAnAccount')
+data.setCell(1, 2, 'com.qa.luma.testcases.SignUpTestCases')
+data.setCell(1, 3, 8080);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLogin')
+data.setCell(2, 2, 'com.qa.luma.testcases.SignInTestCases')
+data.setCell(2, 3, 6179);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyClickOnAddToCart')
+data.setCell(3, 2, 'com.qa.luma.testcases.ProductDetailsTestCases')
+data.setCell(3, 3, 2231);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyClickProceedToCheckOut')
+data.setCell(4, 2, 'com.qa.luma.testcases.ProductDetailsTestCases')
+data.setCell(4, 3, 2185);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySignOut')
+data.setCell(5, 2, 'com.qa.luma.testcases.SignInTestCases')
+data.setCell(5, 3, 2120);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySignUpLink')
+data.setCell(6, 2, 'com.qa.luma.testcases.SignUpTestCases')
+data.setCell(6, 3, 2049);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyEnterSearchKeyword')
+data.setCell(7, 2, 'com.qa.luma.testcases.CatalogSearchTestCases')
+data.setCell(7, 3, 1974);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCheckProductName')
+data.setCell(8, 2, 'com.qa.luma.testcases.ProductDetailsTestCases')
+data.setCell(8, 3, 1105);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyGetProductPrices')
+data.setCell(9, 2, 'com.qa.luma.testcases.CatalogSearchTestCases')
+data.setCell(9, 3, 236);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyClickOnShowCart')
+data.setCell(10, 2, 'com.qa.luma.testcases.ProductDetailsTestCases')
+data.setCell(10, 3, 93);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySignInLink')
+data.setCell(11, 2, 'com.qa.luma.testcases.SignInTestCases')
+data.setCell(11, 3, 46);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyProductItemPrice')
+data.setCell(12, 2, 'com.qa.luma.testcases.ProductDetailsTestCases')
+data.setCell(12, 3, 44);
+window.suiteTableData['Luma_Smoke_Suite']= { tableData: data, tableDiv: 'times-div-Luma_Smoke_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Luma_Smoke_Suite">
+              </div> <!-- times-div-Luma_Smoke_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Luma Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.luma.testcases.SignInTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">deleteExistingReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.luma.testcases.ProductDetailsTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">deleteExistingReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.luma.testcases.CatalogSearchTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">deleteExistingReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Luma_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.luma.testcases.SignUpTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">deleteExistingReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpLink</span>
+                <span class="method-start">16886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateAnAccount(Alen , Paul, alenpaul416@example.com, Test123456#, Test123456#)</span>
+                <span class="method-start">36592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44693 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.luma.testcases.SignInTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48206 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySignInLink</span>
+                <span class="method-start">58181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(alenpaul335@example.com, Test123456#)</span>
+                <span class="method-start">58313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoggedInUserName</span>
+                <span class="method-start">64499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySignOut</span>
+                <span class="method-start">85355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87493 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.luma.testcases.ProductDetailsTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88159 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductItemPrice</span>
+                <span class="method-start">105556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnAddToCart</span>
+                <span class="method-start">105607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnShowCart</span>
+                <span class="method-start">107844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCheckProductName</span>
+                <span class="method-start">107951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClickProceedToCheckOut</span>
+                <span class="method-start">109249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111437 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.luma.testcases.CatalogSearchTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112095 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyEnterSearchKeyword(Watch)</span>
+                <span class="method-start">124649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetProductPrices</span>
+                <span class="method-start">126634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126875 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
