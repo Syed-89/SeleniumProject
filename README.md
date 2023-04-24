@@ -1,4 +1,4 @@
-Selenium Automation Framework Starter
+Selenium Automation Framework
 
 •	Java, Selenium, TestNG
 
